@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the underlying Renology dataset rather than the MCP implementation alone."
+title: "Renology Renovation Cost Data MCP"
+type: software
+version: 1.0.0
+date-released: 2026-07-19
+authors:
+  - name: Renology
+    website: "https://www.therenology.com"
+license: MIT
+url: "https://github.com/asafichaki/renology-cost-data-mcp"
+repository-code: "https://github.com/asafichaki/renology-cost-data-mcp"
+references:
+  - type: dataset
+    title: "2026 U.S. Home Renovation Planning Cost Data"
+    authors:
+      - name: Renology
+    year: 2026
+    url: "https://www.therenology.com/cost-index"
