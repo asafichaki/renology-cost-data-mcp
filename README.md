@@ -2,6 +2,8 @@
 
 Read-only Model Context Protocol server for the versioned [Renology 2026 city-level renovation cost dataset](https://github.com/asafichaki/renology-renovation-cost-data).
 
+Verified in the [official MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.asafichaki%2Frenology-cost-data) as `io.github.asafichaki/renology-cost-data`.
+
 It lets compatible AI assistants list available markets and project types, retrieve one city/project planning range, compare the same project across cities, and return methodology, limitations, commercial disclosure, and a canonical citation. Runtime is local and closed-world: the published snapshot is bundled and no network request is made when a tool is called.
 
 ## Quick start
