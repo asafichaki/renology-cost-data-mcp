@@ -23,6 +23,14 @@ MCP client configuration:
 }
 ```
 
+Public OCI image:
+
+```bash
+docker run --rm -i ghcr.io/asafichaki/renology-cost-data-mcp:1.0.1
+```
+
+The image is published for both `linux/amd64` and `linux/arm64` and carries the ownership annotation required by the official MCP Registry.
+
 ## Tools
 
 - `list_markets`

@@ -1,23 +1,49 @@
 {
   "name": "renology-cost-data-mcp",
   "mcpName": "io.github.asafichaki/renology-cost-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read-only MCP server for Renology's 2026 city-level home renovation planning cost data",
   "type": "module",
-  "bin": { "renology-cost-data-mcp": "src/index.js" },
-  "files": ["src", "data", "README.md", "LICENSE", "DATA-LICENSE.md", "CITATION.cff", "Dockerfile", "glama.json"],
+  "bin": {
+    "renology-cost-data-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "data",
+    "README.md",
+    "LICENSE",
+    "DATA-LICENSE.md",
+    "CITATION.cff",
+    "Dockerfile",
+    "glama.json",
+    "server.json"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "test": "node --test",
     "check": "node --check src/index.js && node --check src/data.js && npm test"
   },
-  "keywords": ["mcp", "model-context-protocol", "home-renovation", "remodeling", "cost-data", "open-data"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "home-renovation",
+    "remodeling",
+    "cost-data",
+    "open-data"
+  ],
   "author": "Assaf Ichaki",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/asafichaki/renology-cost-data-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asafichaki/renology-cost-data-mcp.git"
+  },
   "homepage": "https://www.therenology.com/cost-index",
-  "bugs": { "url": "https://github.com/asafichaki/renology-cost-data-mcp/issues" },
-  "engines": { "node": ">=20" },
+  "bugs": {
+    "url": "https://github.com/asafichaki/renology-cost-data-mcp/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.4.3"

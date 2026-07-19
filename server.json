@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.asafichaki/renology-cost-data",
+  "title": "Renology Renovation Cost Data",
+  "description": "Read-only access to versioned 2026 city-level home renovation planning ranges, methodology, sources, limitations, citation guidance, and commercial disclosure.",
+  "repository": {
+    "url": "https://github.com/asafichaki/renology-cost-data-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/asafichaki/renology-cost-data-mcp:1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
